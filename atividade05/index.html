@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de recursos de estudo</title>
+    <link rel="stylesheet" href="estilo.css">
+    <script src="script,js" defer></script>
+</head>
+<body>
+    <header class="topo">
+        <p class="etiqueta">Exercício FE05</p>
+        <h1>Catálogo de recursos de estudo</h1>
+        <p class="descricao">Monte um catálogo com cards e use JavaScript para destacar a recomendação principal.</p>
+    </header>
+    
+    <main class="container">
+        <section class="painel" aria-labelledby="titulo-recursos">
+            <h2 id="titulo-recursos">Recursos disponíveis</h2>
+            <div class="grade-recursos">
+                <article class="recurso destaque-principal">
+                    <h3>Guia HTML</h3>
+                    <p>Resumo com a estrutura básica de páginas e principais tags semânticas.</p>
+                </article>
+                <article class="recurso">
+                    <h3>Mapa CSS</h3>
+                    <p>Exemplos de seletores, propriedades, visuais e organização de layout.</p>
+                </article>
+                <article class="recurso">
+                    <h3>Prática JavaScript</h3>
+                    <p>Exercícios de eventos, classes e atualização de conteúdo da página.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="painel" aria-labelledby="titulo-acao">
+            <h2 id="titulo-acao">Recomendação do dia</h2>
+            <p id="mensagemRecurso" class="mensagem">Recurso sugerido: Guia HTML.</p>
+            <button id="trocarRecurso" type="button">Trocar recomendação.</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>Exercício FE05 - 2 DS Subsequente</p>
+    </footer>
+</body>
+</html>
