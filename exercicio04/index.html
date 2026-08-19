@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vitrine de planos</title>
+  <link rel="stylesheet" href="estilo.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+      <h1>Planos digitais</h1>
+      <button id="alternarTema" type="button" aria-pressed="false">Ativar tema claro</button>
+      <p id="statusTema" aria-live="polite">Tema escuro ativo.</p>
+    </header>
+
+    <main id="conteudo">
+      <section aria-labelledby="titulo-planos">
+        <h2 id="titulo-planos">Escolha seu plano</h2>
+        <article class="cartao"><h3>Básico</h3><p>Para começar.</p></article>
+        <article class="cartao recomendado" id="planoDestaque" data-status="recomendado"><h3>Profissional</h3><p>Mais recursos.</p></article>
+        <article class="cartao"><h3>Equipe</h3><p>Para projetos maiores.</p></article>
+      </section>
+      <aside aria-labeledby="titulo-resumo">
+        <h2 id="titulo-resumo">Resumo</h2>
+        <p>Observe como seletores, variáveis e Box Model constroem o visual.</p>
+      </aside>
+    </main>
+    <footer>FE04 - CSS Profissional</footer>
+</body>
+</html>
